@@ -36,7 +36,7 @@ FORCE_SUB_CHANNEL = -1002130334868
 TG_BOT_WORKERS =4
 
 #start message
-START_MSG = 'Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+START_MSG ="Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6888539582").split()):
